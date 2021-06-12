@@ -1,0 +1,223 @@
+.dots {
+    overflow: hidden;
+    white-space: nowrap;
+    letter-spacing: 3px;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    margin-top: -15px;
+    cursor: default;
+}
+.dots-product-title {
+    margin-top: -18px;
+    pointer-events: none;
+}
+#content-border {
+    padding: 0px 30px 30px 30px;
+    overflow-y: auto;
+    box-sizing: border-box;
+    position: relative;
+    /* display: grid;
+    grid-template-rows: 50px auto; */
+}
+.downloads-button {
+    border: 1px solid black;
+    width: 180px;
+    padding: 5px;
+    cursor: pointer;
+}
+.downloads-button > div {
+    background:rgba(0, 0, 0, 0.15);
+    padding: 5px;
+    text-align: center;
+    position: relative;
+    transition: 0.3s;
+}
+.downloads-button:hover > div {
+    background:rgba(0, 0, 0, 0.3);
+}
+.downloads-button:active > div {
+    background:rgba(0, 0, 0, 0.4);
+}
+.downloads-button img {
+    left: 8px;
+    margin-right: 5px;
+    position: absolute;
+}
+#shop-content {
+    padding-top: 3px;
+    margin-top: 10px;
+    box-sizing: content-box;
+    overflow: auto;
+}
+.product::before {
+    content: "";
+    position: absolute;
+    margin-right: 20px;
+    width: 20px;
+    height: 3px;
+    background: black;
+    left: 0;
+    z-index: 10;
+    transform: translate(-1px, -14px)
+}
+.product {
+    margin-bottom: 15px;
+    border: 1px solid black;
+    overflow-y: visible;
+    position: relative;
+    padding: 10px;
+}
+.product-thumbnail {
+    border: 1px solid black;
+}
+.product-thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.product-body {
+    display: grid;
+    grid-template-rows: 40px auto auto;
+    height: 100%;
+    padding: 0px 0px 0px 10px;
+}
+.product-title {
+    margin-top: -5px;
+    overflow: hidden;
+}
+.product-title span {
+    font-size: 1.7em;
+}
+.product-title .colon-colon, .product-title .name {
+    /* 600 = medium */
+    font-weight: 600;
+}
+.product-title .type {
+    /* 400 = light */
+    font-weight: 400;
+}
+.colon-colon {
+    letter-spacing: 2px;
+}
+.product-details {
+    width: 100%;
+}
+.product-details > span {
+    letter-spacing: 1px;
+    margin-right: -150px;
+}
+.product-controls {
+    display: grid;
+    grid-template-rows: 5px 28px;
+    align-content: end;
+    align-items: end;
+}
+.buttons-row {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.product-view-more-images {
+    border: 1px solid black;
+    width: 180px;
+    padding: 5px;
+    cursor: pointer;
+    align-self: end;
+}
+.product-view-more-images > div {
+    background:rgba(0, 0, 0, 0.15);
+    padding: 5px;
+    text-align: center;
+    transition: 0.3s;
+}
+.product-view-more-images:hover > div {
+    background:rgba(0, 0, 0, 0.3);
+}
+.product-view-more-images:active > div {
+    background:rgba(0, 0, 0, 0.4);
+}
+.product-purchase-buttons {
+    display: grid;
+    grid-template-rows: auto auto;
+    align-content: end;
+    justify-content: end;
+    /* background: orange; */
+}
+
+
+.product-quantity-selector {
+    border: 1px solid black;
+    width: 180px;
+    padding: 5px;
+}
+.product-quantity-selector > div {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    place-content: center;
+    place-items: center;
+}
+.product-decrease, .product-increase {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    width: 100%;
+    background:rgba(0, 0, 0, 0.25);
+    transition: 0.3s;
+}
+.product-decrease:hover, .product-increase:hover {
+    cursor: pointer;
+    background:rgba(0, 0, 0, 0.3);
+}
+.product-decrease:active, .product-increase:active {
+    background:rgba(0, 0, 0, 0.4);
+}
+.product-quantity {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    text-align: center;
+    background:rgba(0, 0, 0, 0.15);
+}
+.go-back::before {
+    content: "";
+    position: absolute;
+    margin-right: 20px;
+    width: 20px;
+    height: 3px;
+    background: black;
+    left: 0;
+    z-index: 100;
+    transform: translate(-1px, -14px)
+}
+.go-back {
+    border: 1px solid black;
+    position: relative;
+    padding: 10px;
+}
+.go-back > div {
+    width: 100%;
+    box-sizing: border-box;
+    background:rgba(0, 0, 0, 0.15);
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.go-back a {
+    text-decoration: none;
+    color: #00578F;
+}
+.go-back a:visited {
+    color: #00578F;
+}
+
+@media only screen and (max-width: 820px) {
+    .product-view-more-images {
+        width: 130px;
+    }
+    .product-quantity-selector {
+        width: 140px;
+    }
+}
+
+.product img {
+    width: 100%;
+}
