@@ -4,108 +4,71 @@ var cartDropdown = false
 var currentAtmosphereSizeID = '39573840330929'
 
 var productData = {
-    '40117871509681': [ // autanoma S ID
+    '39573840330929': [ // atmosphere S ID
         0, // qty
-        ".product.autanoma-shirt .product-quantity", // qty number query
+        ".product.atmosphere-shirt .product-quantity", // qty number query
         `<span class="colon-colon cart-content">::</span><!-- 
-        --><span class="name cart-content">AUTANOMA</span><!-- 
-       --><span class="type cart-content">.shirt</span><span class="cart-size">.S</span>`
+        --><span class="name cart-content">ATMOSPHERE</span><!-- 
+        --><span class="type cart-content">.shirt</span>:S`
     ],
-    '40117871542449': [ // autanoma M ID
+    '39573840363697': [ // atmosphere M ID
         0, // qty
-        ".product.autanoma-shirt .product-quantity", // qty number query
+        ".product.atmosphere-shirt .product-quantity", // qty number query
         `<span class="colon-colon cart-content">::</span><!-- 
-        --><span class="name cart-content">AUTANOMA</span><!-- 
-        --><span class="type cart-content">.shirt</span><span class="cart-size">.M</span>`
+        --><span class="name cart-content">ATMOSPHERE</span><!-- 
+        --><span class="type cart-content">.shirt</span>:M`
     ],
-    '40117871476913': [ // autanoma L ID
+    '39573840298161': [ // atmosphere L ID
         0, // qty
-        ".product.autanoma-shirt .product-quantity", // qty number query
+        ".product.atmosphere-shirt .product-quantity", // qty number query
         `<span class="colon-colon cart-content">::</span><!-- 
-        --><span class="name cart-content">AUTANOMA</span><!-- 
-        --><span class="type cart-content">.shirt</span><span class="cart-size">.L</span>`
+        --><span class="name cart-content">ATMOSPHERE</span><!-- 
+        --><span class="type cart-content">.shirt</span>:L`
     ],
-    '40117871575217': [ // autanoma XL ID
+    '39573840396465': [ // atmosphere XL ID
         0, // qty
-        ".product.autanoma-shirt .product-quantity", // qty number query
+        ".product.atmosphere-shirt .product-quantity", // qty number query
         `<span class="colon-colon cart-content">::</span><!-- 
-        --><span class="name cart-content">AUTANOMA</span><!-- 
-        --><span class="type cart-content">.shirt</span><span class="cart-size">.XL</span>`
+        --><span class="name cart-content">ATMOSPHERE</span><!-- 
+        --><span class="type cart-content">.shirt</span>:XL`
     ],
-    '40117871607985': [ // autanoma 2XL ID
+    '39573840429233': [ // atmosphere 2XL ID
         0, // qty
-        ".product.autanoma-shirt .product-quantity", // qty number query
+        ".product.atmosphere-shirt .product-quantity", // qty number query
         `<span class="colon-colon cart-content">::</span><!-- 
-        --><span class="name cart-content">AUTANOMA</span><!-- 
-        --><span class="type cart-content">.shirt</span><span class="cart-size">.2XL</span>`
+        --><span class="name cart-content">ATMOSPHERE</span><!-- 
+        --><span class="type cart-content">.shirt</span>:2XL`
     ],
-    '40117871640753': [ // autanoma 3XL ID
+    '39573840462001': [ // atmosphere 3XL ID
         0, // qty
-        ".product.autanoma-shirt .product-quantity", // qty number query
+        ".product.atmosphere-shirt .product-quantity", // qty number query
         `<span class="colon-colon cart-content">::</span><!-- 
-        --><span class="name cart-content">AUTANOMA</span><!-- 
-        --><span class="type cart-content">.shirt</span><span class="cart-size">.3XL</span>`
+        --><span class="name cart-content">ATMOSPHERE</span><!-- 
+        --><span class="type cart-content">.shirt</span>:3XL`
     ],
-    '40117872001201': [ // absoluteprecursor S ID
+    '39573839610033': [ // dreamwrite ID
         0, // qty
-        ".product.absoluteprecursor-shirt .product-quantity", // qty number query
+        ".product.dreamwrite-poster .product-quantity", // qty number query
         `<span class="colon-colon cart-content">::</span><!-- 
-        --><span class="name cart-content">ABSOLUTEPRECURSOR</span><!-- 
-        --><span class="type cart-content">.shirt</span><span class="cart-size">.S</span>`
+        --><span class="name cart-content">DREAMWRITE</span><!-- 
+        --><span class="type cart-content">.poster</span>`
     ],
-    '40117872033969': [ // absoluteprecursor M ID
+    '39573840134321': [ // eversphere ID
         0, // qty
-        ".product.absoluteprecursor-shirt .product-quantity", // qty number query
+        ".product.eversphere-poster .product-quantity", // qty number query
         `<span class="colon-colon cart-content">::</span><!-- 
-        --><span class="name cart-content">ABSOLUTEPRECURSOR</span><!-- 
-        --><span class="type cart-content">.shirt</span><span class="cart-size">.M</span>`
-    ],
-    '40117871968433': [ // absoluteprecursor L ID
-        0, // qty
-        ".product.absoluteprecursor-shirt .product-quantity", // qty number query
-        `<span class="colon-colon cart-content">::</span><!-- 
-        --><span class="name cart-content">ABSOLUTEPRECURSOR</span><!-- 
-        --><span class="type cart-content">.shirt</span><span class="cart-size">.L</span>`
-    ],
-    '40117872066737': [ // absoluteprecursor XL ID
-        0, // qty
-        ".product.absoluteprecursor-shirt .product-quantity", // qty number query
-        `<span class="colon-colon cart-content">::</span><!-- 
-        --><span class="name cart-content">ABSOLUTEPRECURSOR</span><!-- 
-        --><span class="type cart-content">.shirt</span><span class="cart-size">.XL</span>`
-    ],
-    '40117872099505': [ // absoluteprecursor 2XL ID
-        0, // qty
-        ".product.absoluteprecursor-shirt .product-quantity", // qty number query
-        `<span class="colon-colon cart-content">::</span><!-- 
-        --><span class="name cart-content">ABSOLUTEPRECURSOR</span><!-- 
-        --><span class="type cart-content">.shirt</span><span class="cart-size">.2XL</span>`
-    ],
-    '40117872132273': [ // absoluteprecursor 3XL ID
-        0, // qty
-        ".product.absoluteprecursor-shirt .product-quantity", // qty number query
-        `<span class="colon-colon cart-content">::</span><!-- 
-        --><span class="name cart-content">ABSOLUTEPRECURSOR</span><!-- 
-        --><span class="type cart-content">.shirt</span><span class="cart-size">.3XL</span>`
-    ],
-    '40117871739057': [ // maculanovelty ID
-        0, // qty
-        ".product.maculanovelty-poster .product-quantity", // qty number query
-        `<span class="colon-colon cart-content">::</span><!-- 
-        --><span class="name cart-content">MACULANOVELTY</span><!-- 
+        --><span class="name cart-content">EVERSPHERE</span><!-- 
         --><span class="type cart-content">.poster</span>`
     ]
 }
 
 function selectSize(event, sizeID) {
-  // change quantity selector function call to change newly selected Size. Clever code.
-  document.querySelector(productData[sizeID][1]).previousElementSibling.setAttribute('onclick', `changeQty(${sizeID}, 'down')`)
-  document.querySelector(productData[sizeID][1]).nextElementSibling.setAttribute('onclick', `changeQty(${sizeID}, 'up')`)
-
     var chosenSize = event.target.innerHTML
-    document.querySelector(productData[sizeID][1].split(" ")[0] + " .size-current").innerHTML = chosenSize
+    document.querySelector(".size-current").innerHTML = chosenSize
+    
+    currentAtmosphereSizeID = sizeID
+    document.querySelector(".product.atmosphere-shirt .product-quantity").innerHTML = productData[sizeID][0]
 
-    document.querySelector(productData[sizeID][1]).innerHTML = productData[sizeID][0]
     
     if (productData[sizeID][0] === 0) {
         document.querySelector(productData[sizeID][1]).previousElementSibling.classList.add("unavailable")
@@ -174,9 +137,7 @@ function toggleSizePopup(event, productName) {
         document.querySelector(".product." + productName + " .size-selector").classList.add("open")
     } else {
         sizePopup = false
-        document.querySelectorAll(".size-selector").forEach(i => {
-            i.classList.remove("open")
-        })
+        document.querySelector(".product." + productName + " .size-selector").classList.remove("open")
     }
 }
 
