@@ -78,6 +78,9 @@
 .cart-num {
     justify-self: end;
 }
+.cart-size {
+  font-weight: 600;  
+}
 .cart-button:hover > div {
     background:rgba(0, 0, 0, 0.3);
 }
