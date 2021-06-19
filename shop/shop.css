@@ -170,7 +170,7 @@
     position: absolute;
 }
 #shop-content {
-    padding-top: 3px;
+    padding-top: 11px;
     margin-top: 1px;
     box-sizing: content-box;
     overflow-y: auto;
@@ -192,9 +192,10 @@
     border: 1px solid black;
     overflow-y: visible;
     position: relative;
-    padding: 10px;
+    padding: 10px 10px 7px 10px;
     display: grid;
-    grid-template-columns: auto 1fr;
+    grid-template-columns: auto;
+    justify-items: center;
 }
 .product-thumbnail {
     border: 1px solid black;
@@ -221,7 +222,7 @@
     overflow: hidden;
 }
 .product-title span {
-    font-size: 1.7em;
+    font-size: 1.3em;
 }
 .name {
     /* 600 = medium */
@@ -233,7 +234,7 @@
 }
 .colon-colon {
     font-weight: 600;
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
 }
 .product-details {
     width: 100%;
