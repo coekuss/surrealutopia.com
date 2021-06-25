@@ -99,8 +99,8 @@ var productData = {
 
 function selectSize(event, sizeID) {
   // change quantity selector function call to change newly selected Size. Clever code.
-  document.querySelector(productData[sizeID][1]).previousElementSibling.setAttribute('onclick', `changeQty(${sizeID}, 'down')`)
-  document.querySelector(productData[sizeID][1]).nextElementSibling.setAttribute('onclick', `changeQty(${sizeID}, 'up')`)
+  document.querySelector(productData[sizeID][1]).previousElementSibling.setAttribute('onclick', "changeQty(" + sizeID + ", 'down')")
+  document.querySelector(productData[sizeID][1]).nextElementSibling.setAttribute('onclick', "changeQty(" + sizeID + ", 'up')")
 
     var chosenSize = event.target.innerHTML
     document.querySelector(productData[sizeID][1].split(" ")[0] + " .size-current").innerHTML = chosenSize
