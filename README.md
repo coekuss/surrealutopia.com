@@ -1,0 +1,3 @@
+This is the website code I wrote for the very cool digital artist [Integra](https://twitter.com/integratunes), featuring free art asset downloads and premium merchandise.
+
+Fully custom HTML, CSS and JS. Coolest technical achievement here is the cart system, which is fully local and stores cart data in a Javascript object, and generates a Shopify checkout link for checking out. Technically, this setup could be hosted on static web hosting since adding and removing cart items doesn't communicate with a server. This also makes the shopping experience more responsive, and allows us to use the cheapest Shopify Lite plan while also having complete control over our website. Win-win for everyone honestly. 
