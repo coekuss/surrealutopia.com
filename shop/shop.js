@@ -9,132 +9,133 @@ var productData = {
         ".product.autanoma-shirt .product-quantity", // qty number query
         `<span class="colon-colon cart-content">::</span><!-- 
         --><span class="name cart-content">AUTANOMA</span><!-- 
-       --><span class="type cart-content">.shirt</span><span class="cart-size">.S</span>`
+       --><span class="type cart-content">.shirt</span><span class="cart-size">.S</span>`,
+	NaN, // qty limit	
     ],
     '40117871542449': [ // autanoma M ID
         0, // qty
         ".product.autanoma-shirt .product-quantity", // qty number query
         `<span class="colon-colon cart-content">::</span><!-- 
         --><span class="name cart-content">AUTANOMA</span><!-- 
-        --><span class="type cart-content">.shirt</span><span class="cart-size">.M</span>`
+        --><span class="type cart-content">.shirt</span><span class="cart-size">.M</span>`,
+	NaN, // qty limit	
     ],
     '40117871476913': [ // autanoma L ID
         0, // qty
         ".product.autanoma-shirt .product-quantity", // qty number query
         `<span class="colon-colon cart-content">::</span><!-- 
         --><span class="name cart-content">AUTANOMA</span><!-- 
-        --><span class="type cart-content">.shirt</span><span class="cart-size">.L</span>`
+        --><span class="type cart-content">.shirt</span><span class="cart-size">.L</span>`,
+	NaN, // qty limit	
     ],
     '40117871575217': [ // autanoma XL ID
         0, // qty
         ".product.autanoma-shirt .product-quantity", // qty number query
         `<span class="colon-colon cart-content">::</span><!-- 
         --><span class="name cart-content">AUTANOMA</span><!-- 
-        --><span class="type cart-content">.shirt</span><span class="cart-size">.XL</span>`
+        --><span class="type cart-content">.shirt</span><span class="cart-size">.XL</span>`,
+	NaN, // qty limit	
     ],
     '40117871607985': [ // autanoma 2XL ID
         0, // qty
         ".product.autanoma-shirt .product-quantity", // qty number query
         `<span class="colon-colon cart-content">::</span><!-- 
         --><span class="name cart-content">AUTANOMA</span><!-- 
-        --><span class="type cart-content">.shirt</span><span class="cart-size">.2XL</span>`
+        --><span class="type cart-content">.shirt</span><span class="cart-size">.2XL</span>`,
+	NaN, // qty limit	
     ],
     '40117871640753': [ // autanoma 3XL ID
         0, // qty
         ".product.autanoma-shirt .product-quantity", // qty number query
         `<span class="colon-colon cart-content">::</span><!-- 
         --><span class="name cart-content">AUTANOMA</span><!-- 
-        --><span class="type cart-content">.shirt</span><span class="cart-size">.3XL</span>`
+        --><span class="type cart-content">.shirt</span><span class="cart-size">.3XL</span>`,
+	NaN, // qty limit	
     ],
     '40117872001201': [ // absoluteprecursor S ID
         0, // qty
         ".product.absoluteprecursor-shirt .product-quantity", // qty number query
         `<span class="colon-colon cart-content">::</span><!-- 
         --><span class="name cart-content">ABSOLUTEPRECURSOR</span><!-- 
-        --><span class="type cart-content">.shirt</span><span class="cart-size">.S</span>`
+        --><span class="type cart-content">.shirt</span><span class="cart-size">.S</span>`,
+	NaN, // qty limit	
     ],
     '40117872033969': [ // absoluteprecursor M ID
         0, // qty
         ".product.absoluteprecursor-shirt .product-quantity", // qty number query
         `<span class="colon-colon cart-content">::</span><!-- 
         --><span class="name cart-content">ABSOLUTEPRECURSOR</span><!-- 
-        --><span class="type cart-content">.shirt</span><span class="cart-size">.M</span>`
+        --><span class="type cart-content">.shirt</span><span class="cart-size">.M</span>`,
+	NaN, // qty limit	
     ],
     '40117871968433': [ // absoluteprecursor L ID
         0, // qty
         ".product.absoluteprecursor-shirt .product-quantity", // qty number query
         `<span class="colon-colon cart-content">::</span><!-- 
         --><span class="name cart-content">ABSOLUTEPRECURSOR</span><!-- 
-        --><span class="type cart-content">.shirt</span><span class="cart-size">.L</span>`
+        --><span class="type cart-content">.shirt</span><span class="cart-size">.L</span>`,
+	NaN, // qty limit	
     ],
     '40117872066737': [ // absoluteprecursor XL ID
         0, // qty
         ".product.absoluteprecursor-shirt .product-quantity", // qty number query
         `<span class="colon-colon cart-content">::</span><!-- 
         --><span class="name cart-content">ABSOLUTEPRECURSOR</span><!-- 
-        --><span class="type cart-content">.shirt</span><span class="cart-size">.XL</span>`
+        --><span class="type cart-content">.shirt</span><span class="cart-size">.XL</span>`,
+	NaN, // qty limit	
     ],
     '40117872099505': [ // absoluteprecursor 2XL ID
         0, // qty
         ".product.absoluteprecursor-shirt .product-quantity", // qty number query
         `<span class="colon-colon cart-content">::</span><!-- 
         --><span class="name cart-content">ABSOLUTEPRECURSOR</span><!-- 
-        --><span class="type cart-content">.shirt</span><span class="cart-size">.2XL</span>`
+        --><span class="type cart-content">.shirt</span><span class="cart-size">.2XL</span>`,
+	NaN, // qty limit	
     ],
     '40117872132273': [ // absoluteprecursor 3XL ID
         0, // qty
         ".product.absoluteprecursor-shirt .product-quantity", // qty number query
         `<span class="colon-colon cart-content">::</span><!-- 
         --><span class="name cart-content">ABSOLUTEPRECURSOR</span><!-- 
-        --><span class="type cart-content">.shirt</span><span class="cart-size">.3XL</span>`
+        --><span class="type cart-content">.shirt</span><span class="cart-size">.3XL</span>`,
+	NaN, // qty limit	
     ],
     '40117871739057': [ // maculanovelty ID
         0, // qty
         ".product.maculanovelty-poster .product-quantity", // qty number query
         `<span class="colon-colon cart-content">::</span><!-- 
         --><span class="name cart-content">MACULANOVELTY</span><!-- 
-        --><span class="type cart-content">.poster</span>`
-    ]
+        --><span class="type cart-content">.poster</span>`,
+	NaN, // qty limit	
+    ],
+    '40501050966193': [ // reseurgence ID
+    0, // qty
+    ".product.resurgence-magazine .product-quantity",
+    `<span class="colon-colon cart-content">::</span><!-- 
+        --><span class="name cart-content">RESURGENCE</span><!-- 
+        --><span class="type cart-content">.magazine</span>`,
+    1, // qty limit
+    ],
 }
 
 function selectSize(event, sizeID) {
-  // change quantity selector function call to change newly selected Size. Clever code.
-  document.querySelector(productData[sizeID][1]).previousElementSibling.setAttribute('onclick', "changeQty(" + sizeID + ", 'down')")
-  document.querySelector(productData[sizeID][1]).nextElementSibling.setAttribute('onclick', "changeQty(" + sizeID + ", 'up')")
-
     var chosenSize = event.target.innerHTML
     document.querySelector(productData[sizeID][1].split(" ")[0] + " .size-current").innerHTML = chosenSize
-
-    document.querySelector(productData[sizeID][1]).innerHTML = productData[sizeID][0]
     
-    if (productData[sizeID][0] === 0) {
-        document.querySelector(productData[sizeID][1]).previousElementSibling.classList.add("unavailable")
-    } else {
-        document.querySelector(productData[sizeID][1]).previousElementSibling.classList.remove("unavailable")
-    }
+    refreshButtons(sizeID)
 }
 
 function changeQty(productID, upOrDown) {
     switch (upOrDown) {
         case 'down':
-            if (productID == 'atmosphere') {
-                productID = currentAtmosphereSizeID
-            }
             productData[productID][0]--
             break;
         case 'up':
-            if (productID == 'atmosphere') {
-                productID = currentAtmosphereSizeID
-            }
             productData[productID][0]++
             break;
     }
-    document.querySelector(productData[productID][1]).innerHTML = productData[productID][0]
-    if (productData[productID][0] === 0) {
-        document.querySelector(productData[productID][1]).previousElementSibling.classList.add("unavailable")
-    } else {
-        document.querySelector(productData[productID][1]).previousElementSibling.classList.remove("unavailable")
-    }
+
+    refreshButtons(productID)
 
     var qtySum = sumProductQty()
     document.querySelector(".cart-num").innerHTML = qtySum
@@ -162,6 +163,7 @@ function checkout() {
         }
         url += key + ":" + productData[key][0] + ","
     })
+    url += '?channel=buy_button'
     window.open(url)
 }
 
@@ -177,6 +179,18 @@ function toggleSizePopup(event, productName) {
         document.querySelectorAll(".size-selector").forEach(i => {
             i.classList.remove("open")
         })
+    }
+}
+
+function openQtyLimitPopup(productID) {
+    let plusButton = document.querySelector(productData[productID][1]).nextElementSibling
+    console.log("testing");
+    if (!plusButton.classList.contains("open") && plusButton.classList.contains("unavailable")) {
+        plusButton.classList.add("open")
+
+        setTimeout(() => {
+            plusButton.classList.remove("open");
+        }, 3000);
     }
 }
 
@@ -203,22 +217,42 @@ function toggleCartDropdown(event) {
     loadCart()
 }
 
+function clearCart() {
+    Object.keys(productData).forEach(key => {
+        productData[key][0] = 0
+        refreshButtons(key)
+    })
+
+    var qtySum = sumProductQty()
+    document.querySelector(".cart-num").innerHTML = qtySum
+    if (qtySum === 0) {
+        document.querySelector("#checkout-button").classList.add("unavailable")
+    } else {
+        document.querySelector("#checkout-button").classList.remove("unavailable")
+    }
+
+    document.querySelectorAll(".product-quantity").forEach(element => {
+        element.innerHTML = 0
+    })
+    loadCart()
+}
+
 function loadCart() {
     document.querySelector('.cart-entries').innerHTML = ''
 
     var isEverythingZero = true
 
     document.querySelector('.cart-dropdown > div').innerHTML = /*html*/`
-            <div class="cart-entries cart-content">
-            </div>
-            <div class="cart-clear cart-content" onclick="clearCart()">
-                <div class="cart-clear-button cart-content">
-                    <div class="cart-content">
-                        clear cart
-                    </div>
+        <div class="cart-entries cart-content">
+        </div>
+        <div class="cart-clear cart-content" onclick="clearCart()">
+            <div class="cart-clear-button cart-content">
+                <div class="cart-content">
+                    clear cart
                 </div>
             </div>
-        `
+        </div>
+    `
 
     Object.keys(productData).forEach(key => {
         if (productData[key][0] === 0) {
@@ -258,28 +292,27 @@ function loadCart() {
     }
 }
 
-function clearCart() {
-
-    Object.keys(productData).forEach(key => {
-        productData[key][0] = 0
-        document.querySelector(productData[key][1]).innerHTML = productData[key][0]
-        if (productData[key][0] === 0) {
-            document.querySelector(productData[key][1]).previousElementSibling.classList.add("unavailable")
-        } else {
-            document.querySelector(productData[key][1]).previousElementSibling.classList.remove("unavailable")
-        }
-    })
-
-    var qtySum = sumProductQty()
-    document.querySelector(".cart-num").innerHTML = qtySum
-    if (qtySum === 0) {
-        document.querySelector("#checkout-button").classList.add("unavailable")
+function refreshButtons(productID) {
+    let minusButton = document.querySelector(productData[productID][1]).previousElementSibling;
+    let plusButton = document.querySelector(productData[productID][1]).nextElementSibling;
+    
+    // if there are 0 items, disable minus button
+    if (productData[productID][0] === 0) {
+        minusButton.classList.add("unavailable")
+        minusButton.setAttribute("onclick", "")
     } else {
-        document.querySelector("#checkout-button").classList.remove("unavailable")
+        minusButton.classList.remove("unavailable")
+        minusButton.setAttribute("onclick", "changeQty(" + productID + ", 'down')")
     }
 
-    document.querySelectorAll(".product-quantity").forEach(element => {
-        element.innerHTML = 0
-    })
-    loadCart()
+    // if quantity limit is reached, disable plus button
+    if (productData[productID][0] === productData[productID][3]) {
+        plusButton.classList.add("unavailable")
+        plusButton.setAttribute("onclick", "openQtyLimitPopup(" + productID + ")")
+    } else {
+        plusButton.classList.remove("unavailable")
+        plusButton.setAttribute("onclick", "changeQty(" + productID + ", 'up')")
+    }
+
+    document.querySelector(productData[productID][1]).innerHTML = productData[productID][0]
 }
