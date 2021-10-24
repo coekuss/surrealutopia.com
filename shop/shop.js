@@ -4,124 +4,117 @@ var cartDropdown = false
 var currentAtmosphereSizeID = '39573840330929'
 
 var productData = {
-    '40117871509681': [ // autanoma S ID
+    '41022201331889': [ // holexus S ID
         0, // qty
-        ".product.autanoma-shirt .product-quantity", // qty number query
+        ".product.holexus-sweatshirt .product-quantity", // qty number query
         `<span class="colon-colon cart-content">::</span><!-- 
-        --><span class="name cart-content">AUTANOMA</span><!-- 
-       --><span class="type cart-content">.shirt</span><span class="cart-size">.S</span>`,
-	NaN, // qty limit	
+        --><span class="name cart-content">HOLEXUS</span><!-- 
+        --><span class="type cart-content">.sweatshirt</span><span class="cart-size">.S</span>`,
+        NaN, // qty limit	
     ],
-    '40117871542449': [ // autanoma M ID
+    '41022201364657': [ // holexus M ID
         0, // qty
-        ".product.autanoma-shirt .product-quantity", // qty number query
+        ".product.holexus-sweatshirt .product-quantity", // qty number query
         `<span class="colon-colon cart-content">::</span><!-- 
-        --><span class="name cart-content">AUTANOMA</span><!-- 
-        --><span class="type cart-content">.shirt</span><span class="cart-size">.M</span>`,
-	NaN, // qty limit	
+        --><span class="name cart-content">HOLEXUS</span><!-- 
+        --><span class="type cart-content">.sweatshirt</span><span class="cart-size">.M</span>`,
+        NaN, // qty limit	
     ],
-    '40117871476913': [ // autanoma L ID
+    '41022201299121': [ // holexus L ID
         0, // qty
-        ".product.autanoma-shirt .product-quantity", // qty number query
+        ".product.holexus-sweatshirt .product-quantity", // qty number query
         `<span class="colon-colon cart-content">::</span><!-- 
-        --><span class="name cart-content">AUTANOMA</span><!-- 
-        --><span class="type cart-content">.shirt</span><span class="cart-size">.L</span>`,
-	NaN, // qty limit	
+        --><span class="name cart-content">HOLEXUS</span><!-- 
+        --><span class="type cart-content">.sweatshirt</span><span class="cart-size">.L</span>`,
+        NaN, // qty limit	
     ],
-    '40117871575217': [ // autanoma XL ID
+    '41022201397425': [ // holexus XL ID
         0, // qty
-        ".product.autanoma-shirt .product-quantity", // qty number query
+        ".product.holexus-sweatshirt .product-quantity", // qty number query
         `<span class="colon-colon cart-content">::</span><!-- 
-        --><span class="name cart-content">AUTANOMA</span><!-- 
-        --><span class="type cart-content">.shirt</span><span class="cart-size">.XL</span>`,
-	NaN, // qty limit	
+        --><span class="name cart-content">HOLEXUS</span><!-- 
+        --><span class="type cart-content">.sweatshirt</span><span class="cart-size">.XL</span>`,
+        NaN, // qty limit	
     ],
-    '40117871607985': [ // autanoma 2XL ID
+    '41022201430193': [ // holexus 2XL ID
         0, // qty
-        ".product.autanoma-shirt .product-quantity", // qty number query
+        ".product.holexus-sweatshirt .product-quantity", // qty number query
         `<span class="colon-colon cart-content">::</span><!-- 
-        --><span class="name cart-content">AUTANOMA</span><!-- 
-        --><span class="type cart-content">.shirt</span><span class="cart-size">.2XL</span>`,
-	NaN, // qty limit	
+        --><span class="name cart-content">HOLEXUS</span><!-- 
+        --><span class="type cart-content">.sweatshirt</span><span class="cart-size">.2XL</span>`,
+        NaN, // qty limit	
     ],
-    '40117871640753': [ // autanoma 3XL ID
+    '41022201462961': [ // holexus 3XL ID
         0, // qty
-        ".product.autanoma-shirt .product-quantity", // qty number query
+        ".product.holexus-sweatshirt .product-quantity", // qty number query
         `<span class="colon-colon cart-content">::</span><!-- 
-        --><span class="name cart-content">AUTANOMA</span><!-- 
-        --><span class="type cart-content">.shirt</span><span class="cart-size">.3XL</span>`,
-	NaN, // qty limit	
+        --><span class="name cart-content">HOLEXUS</span><!-- 
+        --><span class="type cart-content">.sweatshirt</span><span class="cart-size">.3XL</span>`,
+        NaN, // qty limit	
     ],
-    '40117872001201': [ // absoluteprecursor S ID
+    '41022201528497': [ // silent-condition S ID
         0, // qty
-        ".product.absoluteprecursor-shirt .product-quantity", // qty number query
+        ".product.silent-condition-shirt .product-quantity", // qty number query
         `<span class="colon-colon cart-content">::</span><!-- 
-        --><span class="name cart-content">ABSOLUTEPRECURSOR</span><!-- 
+        --><span class="name cart-content">SILENTCONDITION</span><!-- 
         --><span class="type cart-content">.shirt</span><span class="cart-size">.S</span>`,
-	NaN, // qty limit	
+        NaN, // qty limit	
     ],
-    '40117872033969': [ // absoluteprecursor M ID
+    '41022201561265': [ // silent-condition M ID
         0, // qty
-        ".product.absoluteprecursor-shirt .product-quantity", // qty number query
+        ".product.silent-condition-shirt .product-quantity", // qty number query
         `<span class="colon-colon cart-content">::</span><!-- 
-        --><span class="name cart-content">ABSOLUTEPRECURSOR</span><!-- 
+        --><span class="name cart-content">SILENTCONDITION</span><!-- 
         --><span class="type cart-content">.shirt</span><span class="cart-size">.M</span>`,
-	NaN, // qty limit	
+        NaN, // qty limit	
     ],
-    '40117871968433': [ // absoluteprecursor L ID
+    '41022201495729': [ // silent-condition L ID
         0, // qty
-        ".product.absoluteprecursor-shirt .product-quantity", // qty number query
+        ".product.silent-condition-shirt .product-quantity", // qty number query
         `<span class="colon-colon cart-content">::</span><!-- 
-        --><span class="name cart-content">ABSOLUTEPRECURSOR</span><!-- 
+        --><span class="name cart-content">SILENTCONDITION</span><!-- 
         --><span class="type cart-content">.shirt</span><span class="cart-size">.L</span>`,
-	NaN, // qty limit	
+        NaN, // qty limit	
     ],
-    '40117872066737': [ // absoluteprecursor XL ID
+    '41022201594033': [ // silent-condition XL ID
         0, // qty
-        ".product.absoluteprecursor-shirt .product-quantity", // qty number query
+        ".product.silent-condition-shirt .product-quantity", // qty number query
         `<span class="colon-colon cart-content">::</span><!-- 
-        --><span class="name cart-content">ABSOLUTEPRECURSOR</span><!-- 
+        --><span class="name cart-content">SILENTCONDITION</span><!-- 
         --><span class="type cart-content">.shirt</span><span class="cart-size">.XL</span>`,
-	NaN, // qty limit	
+        NaN, // qty limit	
     ],
-    '40117872099505': [ // absoluteprecursor 2XL ID
+    '41022201626801': [ // silent-condition 2XL ID
         0, // qty
-        ".product.absoluteprecursor-shirt .product-quantity", // qty number query
+        ".product.silent-condition-shirt .product-quantity", // qty number query
         `<span class="colon-colon cart-content">::</span><!-- 
-        --><span class="name cart-content">ABSOLUTEPRECURSOR</span><!-- 
+        --><span class="name cart-content">SILENTCONDITION</span><!-- 
         --><span class="type cart-content">.shirt</span><span class="cart-size">.2XL</span>`,
-	NaN, // qty limit	
+        NaN, // qty limit	
     ],
-    '40117872132273': [ // absoluteprecursor 3XL ID
+    '41022201659569': [ // silent-condition 3XL ID
         0, // qty
-        ".product.absoluteprecursor-shirt .product-quantity", // qty number query
+        ".product.silent-condition-shirt .product-quantity", // qty number query
         `<span class="colon-colon cart-content">::</span><!-- 
-        --><span class="name cart-content">ABSOLUTEPRECURSOR</span><!-- 
+        --><span class="name cart-content">SILENTCONDITION</span><!-- 
         --><span class="type cart-content">.shirt</span><span class="cart-size">.3XL</span>`,
-	NaN, // qty limit	
+        NaN, // qty limit	
     ],
-    '40117871739057': [ // maculanovelty ID
+    '40986516258993': [ // soul-trails ID
         0, // qty
-        ".product.maculanovelty-poster .product-quantity", // qty number query
+        ".product.soultrails-poster .product-quantity", // qty number query
         `<span class="colon-colon cart-content">::</span><!-- 
-        --><span class="name cart-content">MACULANOVELTY</span><!-- 
+        --><span class="name cart-content">SOULTRAILS</span><!-- 
         --><span class="type cart-content">.poster</span>`,
-	NaN, // qty limit	
-    ],
-    '40501050966193': [ // reseurgence ID
-    0, // qty
-    ".product.resurgence-magazine .product-quantity",
-    `<span class="colon-colon cart-content">::</span><!-- 
-        --><span class="name cart-content">RESURGENCE</span><!-- 
-        --><span class="type cart-content">.magazine</span>`,
-    1, // qty limit
-    ],
+        NaN, // qty limit	
+    ]
+
 }
 
 function selectSize(event, sizeID) {
     var chosenSize = event.target.innerHTML
     document.querySelector(productData[sizeID][1].split(" ")[0] + " .size-current").innerHTML = chosenSize
-    
+
     refreshButtons(sizeID)
 }
 
@@ -129,10 +122,10 @@ function changeQty(productID, upOrDown) {
     switch (upOrDown) {
         case 'down':
             productData[productID][0]--
-            break;
+                break;
         case 'up':
             productData[productID][0]++
-            break;
+                break;
     }
 
     refreshButtons(productID)
@@ -195,16 +188,16 @@ function openQtyLimitPopup(productID) {
 }
 
 function toggleCartDropdown(event) {
-    if (!event.target.classList.contains("cart-icon")
-     && !event.target.classList.contains("fil0")
-     && !event.target.classList.contains("cart-button")
-     && !event.target.classList.contains("cart-button-inner")
-     && !event.target.classList.contains("cart-num")
-     && !cartDropdown) {
+    if (!event.target.classList.contains("cart-icon") &&
+        !event.target.classList.contains("fil0") &&
+        !event.target.classList.contains("cart-button") &&
+        !event.target.classList.contains("cart-button-inner") &&
+        !event.target.classList.contains("cart-num") &&
+        !cartDropdown) {
         return
     }
-    if (event.target.classList.contains("cart-content")
-    && cartDropdown) {
+    if (event.target.classList.contains("cart-content") &&
+        cartDropdown) {
         return
     }
     if (cartDropdown === false) {
@@ -242,7 +235,7 @@ function loadCart() {
 
     var isEverythingZero = true
 
-    document.querySelector('.cart-dropdown > div').innerHTML = /*html*/`
+    document.querySelector('.cart-dropdown > div').innerHTML = /*html*/ `
         <div class="cart-entries cart-content">
         </div>
         <div class="cart-clear cart-content" onclick="clearCart()">
@@ -260,28 +253,27 @@ function loadCart() {
         } else {
             isEverythingZero = false
         }
-        document.querySelector('.cart-entries').innerHTML += /*html*/`
+        document.querySelector('.cart-entries').innerHTML += /*html*/ `
             <div class="cart-dropdown-entry cart-content">
-                <div class="entry-title cart-content">`
-                +
-                productData[key][2] // html for product title
-                +
-                /*html*/`</div>
+                <div class="entry-title cart-content">` +
+            productData[key][2] // html for product title
+            +
+            /*html*/
+            `</div>
                 <div class="cart-dots cart-content">
                     . . . . . . . . . . . . 
                     . . . . . . . . . . . .
                     . . . . . . . . . . . .
                 </div>
-                <div class="entry-quantity cart-content">`
-                +
-                productData[key][0]
-                +
-                /*html*/`</div>
+                <div class="entry-quantity cart-content">` +
+            productData[key][0] +
+            /*html*/
+            `</div>
             </div>
         `
     })
     if (isEverythingZero) {
-        document.querySelector('.cart-dropdown > div').innerHTML = /*html*/`
+        document.querySelector('.cart-dropdown > div').innerHTML = /*html*/ `
             <div class="cart-entries cart-content">
             There are no items in your cart.
             </div>
@@ -295,7 +287,7 @@ function loadCart() {
 function refreshButtons(productID) {
     let minusButton = document.querySelector(productData[productID][1]).previousElementSibling;
     let plusButton = document.querySelector(productData[productID][1]).nextElementSibling;
-    
+
     // if there are 0 items, disable minus button
     if (productData[productID][0] === 0) {
         minusButton.classList.add("unavailable")
